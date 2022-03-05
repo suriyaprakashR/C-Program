@@ -7,21 +7,16 @@ int main()
 	printf("Value of a :%c\n",k);
 	printf("ASCII value of 'K' is %d\n",k);
 
-
-
-	// overflow in signed char (range -128 to 127)
-       	
+	// overflow in signed char (range -128 to 127)       	
 	int i = 0;
 	char a;	
 	while(1)
 	{
-		
 		i++;
 		a=i;
 		printf("int :%d  char :%d,\n",i,a);
 		if (i == 300)
 			break;
-
 	}
 
 
